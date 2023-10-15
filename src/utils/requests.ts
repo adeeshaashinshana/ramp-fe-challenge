@@ -10,7 +10,7 @@ import mockData from "../mock-data.json"
 
 const TRANSACTIONS_PER_PAGE = 5
 
-let data: { employees: Employee[]; transactions: Transaction[] } = {
+const data: { employees: Employee[]; transactions: Transaction[] } = {
   employees: mockData.employees,
   transactions: mockData.transactions,
 }
